@@ -4,6 +4,7 @@
   padding: 0;
 }
 
+
 body {
     font-family: 'Open Sans', sans-serif;
 }
@@ -194,18 +195,13 @@ body {
 
 
 /* --------------START PEOPLE------------- */
-.people {
-}
-.container {
-}
 .people__wrapper {
     display: flex;
     color: white;
     gap: 5px;
     
 }
-.people__photo {
-}
+
 .people__img {
 }
 .people__block-text {
@@ -243,12 +239,114 @@ body {
     border-radius: 5px;
     text-decoration: none;
     color: white;
+    transition: .3s;
+}
+
+.people__btn:hover {
+    color: #0284D0;
+}
+/* --------------FINISH PEOPLE------------- */
+/* ----------TEXT start----------- */
+.titles {
+}
+.title__upper-title {
+    margin-top: 50px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    text-align: center;
+}
+.titles__title {
+    margin-bottom: 35px;
+    font-weight: 300;
+    font-size: 38px;
+    line-height: 48px;
+    text-align: center;
+}
+.titles__lower-title {
+    margin-bottom: 35px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
 }
 
 
-/* --------------FINISH PEOPLE------------- */
+
+/* ----------TEXT finish----------- */
+/* ------------PHOTOS BLOCH START----------- */
+.photoe__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.photo__photo {
+    margin-bottom: 20px;
+}
+
+/* ------------PHOTOS BLOCH FINISH----------- */
+
+/* ------------------start blue block---------------------- */
+.container {
+}
+.blue__blocks {
+    display: flex;
+}
+.blue__text-block {
+    background-color:#0284D0;
+}
+.blue__date {
+    padding-left: 30px;
+    padding-top: 112px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    color: white;
+}
+.blue__title {
+    padding-bottom: 25px;
+    padding-left: 30px;
+    font-weight: 300;
+    font-size: 38px;
+    line-height: 48px;
+    color: white;
+}
+.blue__text {
+    padding-left: 30px;
+    padding-right: 55px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: white;
+}
+.blue__button {
+    margin-top: 30px;
+}
+.blue__btn {
+    
+    margin-left: 30px;
+    padding: 12px 35px;
+    border: solid 1px white;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    transition: .3s;
+}
+
+.blue__btn:hover {
+    color:#28A745;
+
+}
+.blue__image {
+}
+.blue__img {
+}
 
 
 
 
 
+
+/* -------------------Finish blue block----------------------
+ */
