@@ -381,14 +381,51 @@ body {
     top: 134px;
     left: 113px;
 }
-
-
-
-
-
-
-
-
-
 /*  ---------------------TEAM BLOCK finish-------------------
  */
+
+/*  ---------------------Block INPUT start-------------------
+ */
+
+
+
+
+
+/*  ---------------------Block INPUT finish-------------------
+ */
+
+
+
+
+ .footer {
+    background-color: #333333;
+    height: 130px;
+}
+.container {
+}
+.footer__wrapper {
+    position: relative;
+
+}
+.footer__icons {
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.footer__icon {
+
+}
+.footer__link {
+}
+.footer__img {
+    
+}
+
+.footer__text {
+    position: absolute;
+   text-align: center;
+   color: white;
+   top: 83px;
+   left: 553px;
+}
